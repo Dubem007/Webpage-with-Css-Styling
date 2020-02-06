@@ -1,0 +1,94 @@
+*
+{
+	box-sizing: border-box;
+}
+
+h1 {
+	margin-bottom: 15px;
+	text-align: center;
+}	
+
+#ny	{
+
+	border: 2px solid black;
+	background-color: rgba(255, 99, 71, 0.5);
+	color: black;
+	text-align: center;
+	width: 40%;
+	margin-top: -20px;
+	margin-left: 61%;
+}
+#no	{
+
+	border: 2px solid black;
+	background-color: red;
+	color: white;
+	text-align: center;
+	width: 40%;
+	margin-top: -20px;
+	margin-left: 61%;
+}
+
+#lo	{
+
+	border: 2px solid black;
+	background-color: yellow;
+	color: black;
+	text-align: center;
+	width: 40%;
+	margin-top: -20px;
+	margin-left: 61%;
+}
+
+.col-lg-3 .col-md-3 .col-sl-3 {
+	border: 1px solid black;
+	background-color: grey;
+	color: black;
+	width: 80%;
+	height: 100%;
+	margin-top: 10px;
+	margin-left: 5px;
+	
+}
+.col-lg-2 .col-md-2 .col-sl-2 {
+	border: 2px solid black;
+	background-color: grey;
+	color: black;
+	width: 80%;
+	height: 100%;
+	margin-top: 10px;
+	margin-left: 5px;
+	
+}
+
+
+.row {
+	width: 100%;
+
+}
+
+/******************large Devices only *********************/
+@media (max-width:992px) {
+	.col-lg-1,.col-lg-2,.col-lg-3 
+	{float:left;border: 2px solid black;background-color: grey; margin-left: 30px; margin-bottom: 10px; padding:3px; }
+	.col-lg-1 {width: 50%;}
+	.col-lg-2 {width: 50%;}
+	.col-lg-3 {width: 100%;}
+}
+
+/******************Medium Devices only ********************/
+@media (max-width:768px) and (min-width:991px) {
+	.col-md-1,.col-md-2,.col-md-3 
+	{float:left; border: 2px solid black; background-color: grey; margin-left: 50px; padding:3px;}
+	.col-md-1 {width: 50%;}
+	.col-md-2 {width: 50%;}
+	.col-md-3 {width: 50%;}
+}
+/******************Small Devices only ********************/
+@media	(min-width:767px) {
+	.col-sl-1,.col-sl-2,.col-sl-3 
+	{float: left; border: 2px solid black; background-color: grey; margin-left: 10px; padding:3px;}
+	.col-sl-1 {width: 30%;}
+	.col-sl-2 {width: 30%;}
+	.col-sl-3 {width: 30%;}
+}
